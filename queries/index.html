@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/query.min.js"></script>	
+	<meta charset="UTF-8">
+	<title>Queries</title>
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<header id="thenav">
+		<nav>
+			<ul>
+				<li><a href="#">Menu Item 1</a></li>
+				<li><a href="#">Menu Item 2</a></li>
+				<li><a href="#">Menu Item 3</a></li>
+				<li><a href="#">Menu Item 4</a></li>
+			</ul>			
+		</nav>
+	</header>
+
+	<main id="themain">
+		<section> <!-- row 1 -->
+			<div class="no-phone">
+				<ul>
+					<li>List Item 1</li>
+					<li>List Item 2</li>
+					<li>List Item 3</li>
+					<li>List Item 4</li>
+					<li>List Item 5</li>
+				</ul>
+			</div>
+			<div>cubby 3</div>
+		</section>
+
+		<section> <!-- row 2 -->
+			<div>
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate expedita dolore aliquid magnam. Voluptatibus sint, eius magni cum dolores aperiam sequi cupiditate modi, minima molestias totam blanditiis aliquid quisquam!</p>
+				<button>Read more</button>
+			</div>
+			<div>
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate expedita dolore aliquid magnam. Voluptatibus sint, eius magni cum dolores aperiam sequi cupiditate modi, minima molestias totam blanditiis aliquid quisquam!</p>
+				<button>Read more</button>
+			</div>
+			<div>
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate expedita dolore aliquid magnam. Voluptatibus sint, eius magni cum dolores aperiam sequi cupiditate modi, minima molestias totam blanditiis aliquid quisquam!</p>
+				<button>Read more</button>
+			</div>						
+		</section>
+		
+		<section> <!-- promo section -->
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate expedita dolore aliquid magnam. Voluptatibus sint, eius magni cum dolores aperiam sequi cupiditate modi, minima molestias totam blanditiis aliquid quisquam!</p>
+				<button>Learn more</button>				
+			</div>
+			<div class="no-phone">  
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate expedita dolore aliquid magnam. Voluptatibus sint, eius magni cum dolores aperiam sequi cupiditate modi, minima molestias totam blanditiis aliquid quisquam!</p>
+				<button>Learn more</button>				
+			</div>			
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2015 Geekwise Academy. All rights reserved.</p>
+	</footer>
+
+      <script type="text/javascript">
+      		if($window).width() > 500) && ($window).width() <= 750) {
+				$( "thenav" ).insertAfter( $( "themain" ) );     
+				}
+      </script>
+</body>
+
+</html>
